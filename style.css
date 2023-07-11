@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: linear-gradient(
+        90deg,
+        rgba(166,93,234,1)25%,
+        rgba(207,103,235,1)73%);
+        font-family: arial,Helvetica,sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back{
+    padding: 0 3pc;
+    /* background-color: #2A394F; */
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #15A4F9;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-texto{
+    width: 50%;
+    padding: 3pc; 
+}
+.header-texto h1{
+    margin: 1pc 0;
+}
+.header-container{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.containerButon{
+    display: flex;
+    gap: 1pc;
+    margin: 1pc 0;
+}
+.boton1{
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding: 8px 15px;
+}
+.boton2{
+    padding: 8px 15px;
+    color: white;
+}
+.header-img{
+    width: 50%;
+}
+.imagen_persona{
+    width: 100%;
+}
